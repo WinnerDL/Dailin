@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.bwei.administrator.myshop.MainActivity">
+
+<ExpandableListView
+    android:layout_weight="1"
+    android:id="@+id/expan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"></ExpandableListView>
+
+    <LinearLayout
+        android:layout_weight="6"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<CheckBox
+    android:id="@+id/quan"
+    android:layout_width="match_parent"
+    android:layout_weight="1"
+    android:layout_height="match_parent"
+    android:text="全选"/>
+<TextView
+    android:id="@+id/he"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:text="合计"/>
+        <TextView
+            android:id="@+id/jie"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            android:text="结算"/>
+
+    </LinearLayout>
+</LinearLayout>
